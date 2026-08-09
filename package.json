@@ -1,0 +1,18 @@
+{
+  "name": "toke-local",
+  "version": "1.0.0",
+  "description": "Local, zero-dependency MCP server: 6 aggregate tools (agent_search, agent_read, agent_edit, agent_exec, agent_git, agent_savings) that cut round-trips and tokens for coding agents — like the commercial Tokeasy, open and auditable.",
+  "type": "module",
+  "license": "MIT",
+  "main": "src/server.js",
+  "bin": {
+    "toke-local": "bin/toke-local"
+  },
+  "scripts": {
+    "test": "node --test test/toke-local.test.js",
+    "bench": "node bench/bench.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
