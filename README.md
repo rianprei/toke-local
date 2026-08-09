@@ -92,7 +92,7 @@ src/cli.js             CLI dispatch
 src/tools/             the six tools
 src/ledger.js          savings ledger (labeled) with named constants
 src/syntax.js          validators (TS/JS/JSON/YAML/Python)
-src/util.ts            tsHeader + small helpers
+src/util.js            tsHeader + small helpers
 test/toke-local.test.js  25 tests
 docs/                   architecture, benchmark methodology, runbook
 ```
